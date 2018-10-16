@@ -1,0 +1,23 @@
+{
+  "name": "xor-neural-network",
+  "version": "1.0.0",
+  "description": "Trains a network to solve an XOR",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniruddhamurali/XOR-Neural-Network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniruddhamurali/XOR-Neural-Network/issues"
+  },
+  "homepage": "https://github.com/aniruddhamurali/XOR-Neural-Network#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
