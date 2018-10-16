@@ -2,8 +2,6 @@
 var Neuron = synaptic.Neuron;
 var Layer = synaptic.Layer;
 var Network = synaptic.Network;
-var Trainer = synaptic.Trainer;
-var Architect = synaptic.Architect;
 
 // create the network
 var inputLayer = new Layer(2);
