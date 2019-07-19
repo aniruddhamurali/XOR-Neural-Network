@@ -36,7 +36,6 @@ for (var i = 0; i < 20000; i++)
 	// 1,1 => 0
 	myNetwork.activate([1,1]);
 	myNetwork.propagate(learningRate, [0]);
-  console.log(i);
 }
 
 

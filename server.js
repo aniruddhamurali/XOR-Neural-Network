@@ -1,7 +1,7 @@
 // express is the most commonly used module with node
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 3000;
 
 // Tell it to use the public directory
 app.use(express.static(__dirname + '/public')); //That's a double underscore
@@ -14,5 +14,5 @@ app.get('/', function (req, res) {
 
 // Runs command; callback function
 app.listen(port, function() {
-  console.log('Great! The server is running and waiting for traffic on port 5000.');
+  console.log('Great! The server is running and waiting for traffic on port 3000.');
 });

@@ -28,7 +28,7 @@ function train() {
 }
 
 function retrain() {
-  for (var i = 0; i < 1000; i++) {
+  for (var i = 0; i < 30000; i++) {
     trainingData = _.shuffle(trainingData);
     train();
   }
